@@ -32,7 +32,7 @@ public class GallowLogic {
         return this.usedLetters;
     }
     public int getWrongLettersCount() {
-        return this.getWrongLettersCount();
+        return this.wrongLettersCount;
     }
     public boolean isLastLetterCorrect() {
         return this.lastGuessedLetterIsCorrect;
@@ -82,6 +82,8 @@ public class GallowLogic {
     }
 
     public void guess(String letter) {
+        letter = letter.toLowerCase();
+
         if (letter.length() != 1) return;
         System.out.println("User guess: " + letter);
         if(usedLetters.contains(letter)) return;

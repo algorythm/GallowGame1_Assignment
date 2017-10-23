@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">GallowGame_Assignment</string>
+    <string name="app_name">Gallow Game</string>
+    <string name="guessed_words_tv">Guess Words</string>
+    <string name="guess_letter_te">Guess a letter</string>
+
+    <string name="word_to_guess_tv">Word: Empty</string>
+    <string name="guess_word_btn">Guess!</string>
 </resources>

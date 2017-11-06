@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
         guessBtn = (Button) findViewById(R.id.guessBtn);
 
-
         game = new GallowLogic();
 
         initializeValues();
